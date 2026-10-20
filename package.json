@@ -1,0 +1,14 @@
+{
+  "name": "ptit-lab3-service-connection",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab 3 - Fee Service and mock Bank Service",
+  "main": "fee-service.js",
+  "scripts": {
+    "fee": "node fee-service.js",
+    "bank": "node bank-service.js",
+    "load": "node scripts/load-test.js",
+    "test": "node --test"
+  },
+  "dependencies": { "axios": "^1.7.9", "express": "^4.21.2" }
+}
